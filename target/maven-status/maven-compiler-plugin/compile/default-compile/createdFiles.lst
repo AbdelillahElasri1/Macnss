@@ -1,0 +1,12 @@
+org/elasriabdelillah/Enum/RadiosType.class
+org/elasriabdelillah/Enum/MedicamentStatus.class
+org/elasriabdelillah/entity/Agent.class
+org/elasriabdelillah/entity/Medicament.class
+org/elasriabdelillah/entity/Radios.class
+org/elasriabdelillah/Main.class
+org/elasriabdelillah/entity/Admin.class
+org/elasriabdelillah/entity/Scanner.class
+org/elasriabdelillah/Enum/ScannerType.class
+org/elasriabdelillah/Enum/FolderStatus.class
+org/elasriabdelillah/entity/Folder.class
+org/elasriabdelillah/entity/Patient.class
