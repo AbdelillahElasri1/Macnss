@@ -1,6 +1,6 @@
-package org.macnss.dao;
+package org.elasriabdelillah.dao;
 
-import org.macnss.entity.Agent;
+import org.elasriabdelillah.entity.Agent;
 
 public interface IAgentDAO extends DAO<Agent>{
     final String id = "id";

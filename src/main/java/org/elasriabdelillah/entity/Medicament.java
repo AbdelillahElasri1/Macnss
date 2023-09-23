@@ -1,6 +1,6 @@
-package org.macnss.entity;
+package org.elasriabdelillah.entity;
 
-import org.macnss.Enum.MedicamentStatus;
+import org.elasriabdelillah.Enum.MedicamentStatus;
 
 public class Medicament {
     private int id;

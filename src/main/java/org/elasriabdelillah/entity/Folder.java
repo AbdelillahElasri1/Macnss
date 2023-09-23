@@ -1,6 +1,6 @@
-package org.macnss.entity;
+package org.elasriabdelillah.entity;
 
-import org.macnss.Enum.FolderStatus;
+import org.elasriabdelillah.Enum.FolderStatus;
 
 import java.util.Date;
 

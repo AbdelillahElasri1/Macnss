@@ -1,6 +1,6 @@
-package org.macnss.dao;
+package org.elasriabdelillah.dao;
 
-import org.macnss.Database.Database;
+import org.elasriabdelillah.Database.Database;
 
 import java.sql.Connection;
 import java.sql.SQLException;

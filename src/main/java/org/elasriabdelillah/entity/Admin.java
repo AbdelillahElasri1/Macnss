@@ -1,4 +1,4 @@
-package org.macnss.entity;
+package org.elasriabdelillah.entity;
 
 public class Admin {
     private final String id;

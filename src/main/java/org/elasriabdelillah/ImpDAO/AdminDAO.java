@@ -1,10 +1,9 @@
-package org.macnss.ImpDAO;
+package org.elasriabdelillah.ImpDAO;
 
-import org.macnss.Database.Database;
+import org.elasriabdelillah.Database.Database;
 
-import org.macnss.entity.Admin;
+import org.elasriabdelillah.entity.Admin;
 
-import java.awt.print.PrinterException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
