@@ -1,6 +1,6 @@
-package org.elasriabdelillah.entity;
+package org.macnss.entity;
 
-import org.elasriabdelillah.Enum.ScannerType;
+import org.macnss.Enum.ScannerType;
 
 import java.util.Date;
 

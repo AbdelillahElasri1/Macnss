@@ -1,4 +1,4 @@
-package org.elasriabdelillah.Enum;
+package org.macnss.Enum;
 
 public enum MedicamentStatus {
     DONE

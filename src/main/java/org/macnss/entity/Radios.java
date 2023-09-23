@@ -1,6 +1,6 @@
-package org.elasriabdelillah.entity;
+package org.macnss.entity;
 
-import org.elasriabdelillah.Enum.RadiosType;
+import org.macnss.Enum.RadiosType;
 
 import java.util.Date;
 

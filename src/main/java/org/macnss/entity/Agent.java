@@ -1,25 +1,21 @@
-package org.elasriabdelillah.entity;
+package org.macnss.entity;
 
 public class Agent {
-    private int id;
+    private String id;
     private String name;
     private String email;
     private String password;
     private String verificationCode;
 
-    public Agent(int id, String name, String email, String password, String verificationCode) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.password = password;
-        this.verificationCode = verificationCode;
+    public Agent() {
+
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

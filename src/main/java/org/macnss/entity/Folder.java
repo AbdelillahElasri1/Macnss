@@ -1,6 +1,6 @@
-package org.elasriabdelillah.entity;
+package org.macnss.entity;
 
-import org.elasriabdelillah.Enum.FolderStatus;
+import org.macnss.Enum.FolderStatus;
 
 import java.util.Date;
 
@@ -9,10 +9,7 @@ public class Folder {
     private Date depositDate;
     private FolderStatus folderStatus;
 
-    public Folder(int id, Date depositDate, FolderStatus folderStatus) {
-        this.id = id;
-        this.depositDate = depositDate;
-        this.folderStatus = folderStatus;
+    public Folder(){
     }
 
     public int getId() {

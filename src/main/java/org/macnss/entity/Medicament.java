@@ -1,6 +1,6 @@
-package org.elasriabdelillah.entity;
+package org.macnss.entity;
 
-import org.elasriabdelillah.Enum.MedicamentStatus;
+import org.macnss.Enum.MedicamentStatus;
 
 public class Medicament {
     private int id;
@@ -9,12 +9,7 @@ public class Medicament {
     private double price;
     private double taux;
 
-    public Medicament(int id, String name, MedicamentStatus medicamentStatus, double price, double taux) {
-        this.id = id;
-        this.name = name;
-        this.medicamentStatus = medicamentStatus;
-        this.price = price;
-        this.taux = taux;
+    public Medicament(){
     }
 
     public int getId() {
