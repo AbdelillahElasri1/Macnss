@@ -22,7 +22,7 @@ public class AdminDAO {
             preparedStatement.setString(1, email);
             preparedStatement.setString(2, password);
             ResultSet res = preparedStatement.executeQuery();
-            while (res.next()){
+            if (res.next()){
                 admin = Admin.getInstance(
                         res.getString("id"), res.getString("fullName"),
                         res.getString("email"), res.getString("password") );
