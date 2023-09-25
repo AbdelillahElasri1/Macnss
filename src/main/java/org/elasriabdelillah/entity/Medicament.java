@@ -1,18 +1,18 @@
 package org.elasriabdelillah.entity;
 
-import org.elasriabdelillah.Enum.MedicamentStatus;
+import org.elasriabdelillah.Enum.DocumentStatus;
 
 public class Medicament {
     private int id;
     private String name;
-    private MedicamentStatus medicamentStatus;
+    private DocumentStatus documentStatus;
     private double price;
     private double taux;
 
-    public Medicament(int id, String name, MedicamentStatus medicamentStatus, double price, double taux) {
+    public Medicament(int id, String name, DocumentStatus documentStatus, double price, double taux) {
         this.id = id;
         this.name = name;
-        this.medicamentStatus = medicamentStatus;
+        this.documentStatus = documentStatus;
         this.price = price;
         this.taux = taux;
     }
@@ -33,12 +33,12 @@ public class Medicament {
         this.name = name;
     }
 
-    public MedicamentStatus getMedicamentStatus() {
-        return medicamentStatus;
+    public DocumentStatus getDocumentStatus() {
+        return documentStatus;
     }
 
-    public void setMedicamentStatus(MedicamentStatus medicamentStatus) {
-        this.medicamentStatus = medicamentStatus;
+    public void setDocumentStatus(DocumentStatus documentStatus) {
+        this.documentStatus = documentStatus;
     }
 
     public double getPrice() {
@@ -62,7 +62,7 @@ public class Medicament {
         return "Medicament{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", medicamentStatus=" + medicamentStatus +
+                ", medicamentStatus=" + documentStatus +
                 ", price=" + price +
                 ", taux=" + taux +
                 '}';

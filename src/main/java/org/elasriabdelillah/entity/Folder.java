@@ -6,13 +6,23 @@ import java.util.Date;
 
 public class Folder {
     private int id;
+    private String name;
     private Date depositDate;
     private FolderStatus folderStatus;
 
-    public Folder(int id, Date depositDate, FolderStatus folderStatus) {
+    public Folder(int id, String name, Date depositDate, FolderStatus folderStatus) {
         this.id = id;
+        this.name = name;
         this.depositDate = depositDate;
         this.folderStatus = folderStatus;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getId() {
@@ -43,6 +53,7 @@ public class Folder {
     public String toString() {
         return "Folder{" +
                 "id=" + id +
+                ",name=" + name+
                 ", depositDate=" + depositDate +
                 ", folderStatus=" + folderStatus +
                 '}';

@@ -1,19 +1,19 @@
 package org.elasriabdelillah.entity;
 
-import org.elasriabdelillah.Enum.ScannerType;
+import org.elasriabdelillah.Enum.DocumentStatus;
 
 import java.util.Date;
 
 public class Scanner {
     private int id;
     private Date scannerDate;
-    private ScannerType scannerType;
+    private DocumentStatus documentStatus;
     private String results;
 
-    public Scanner(int id, Date scannerDate, ScannerType scannerType, String results) {
+    public Scanner(int id, Date scannerDate, DocumentStatus documentStatus, String results) {
         this.id = id;
         this.scannerDate = scannerDate;
-        this.scannerType = scannerType;
+        this.documentStatus = documentStatus;
         this.results = results;
     }
 
@@ -33,12 +33,12 @@ public class Scanner {
         this.scannerDate = scannerDate;
     }
 
-    public ScannerType getScannerType() {
-        return scannerType;
+    public DocumentStatus getScannerType() {
+        return documentStatus;
     }
 
-    public void setScannerType(ScannerType scannerType) {
-        this.scannerType = scannerType;
+    public void setScannerType(DocumentStatus documentStatus) {
+        this.documentStatus = documentStatus;
     }
 
     public String getResults() {
@@ -54,7 +54,7 @@ public class Scanner {
         return "Scanner{" +
                 "id=" + id +
                 ", scannerDate=" + scannerDate +
-                ", scannerType=" + scannerType +
+                ", scannerType=" + documentStatus +
                 ", results='" + results + '\'' +
                 '}';
     }
