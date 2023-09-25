@@ -1,5 +1,5 @@
 package org.elasriabdelillah.Enum;
 
-public enum MedicamentStatus {
+public enum documentStatus {
     DONE
 }
