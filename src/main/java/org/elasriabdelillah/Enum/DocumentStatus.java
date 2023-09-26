@@ -1,5 +1,5 @@
 package org.elasriabdelillah.Enum;
 
-public enum documentStatus {
+public enum DocumentStatus {
     DONE
 }

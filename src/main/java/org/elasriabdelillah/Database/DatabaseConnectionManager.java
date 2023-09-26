@@ -5,10 +5,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DatabaseConnectionManager {
-    private static String url = "jdbc:postgresql://localhost:5432/Macnss";
-    private static String username = "postgres";
-    private static String password = "";
+public class
+DatabaseConnectionManager {
+    private static String url = "jdbc:mysql://localhost:3306/Macnss";
+    private static String username = "root";
+    private static String password = "Abdelillah123@";
     private static Connection connection;
     private static DataSource dataSource;
 
@@ -20,7 +21,7 @@ public class DatabaseConnectionManager {
     public static Connection getConnection(){
         if (connection == null){
             try {
-                Class.forName("org.postgresql.Driver");
+                Class.forName("com.mysql.cj.jdbc.Driver");
                 connection = DriverManager.getConnection(url,username,password);
             } catch (ClassNotFoundException | SQLException e){
                 e.printStackTrace();
